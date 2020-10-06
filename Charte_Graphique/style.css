@@ -1,0 +1,50 @@
+/*
+Orange : #ED7D31
+Vert   : #80A863
+Gris f : #343A40
+Gris c : #505860
+*/
+
+body {
+	background-color: #505860 !important;
+}
+
+#banniere {
+	position:relative;
+	background-image:url(assets/banniere.png);
+	height:200px;
+	margin-top: 0;
+	padding:0px;
+	filter: blur(2px);
+	text-align: center;
+}
+
+#logo_banniere {
+	filter: blur(0);
+}
+
+#logo {
+	width: 3em;
+}
+
+#contenu {
+	background-color: #343A40 !important;
+	height: 1200px;
+	margin-top: 1em;
+	color: white;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+ }
+
+.card-deck {
+	margin-top: 1em;
+}
+
+.btn {
+	background-color: #ED7D31 !important;
+	color: #343A40 !important;
+	border-color: #343A40 !important;
+}
