@@ -1,5 +1,4 @@
-# Verifequations
-![](./Charte_Graphique/assets/logo.png =150x)
+# Verifequations <img src="https://raw.githubusercontent.com/BenjaminGonzalez5/Verifequations/main/Charte_Graphique/assets/logo.png" alt="drawing" width="55"/>
 
 ## Description du projet
 
