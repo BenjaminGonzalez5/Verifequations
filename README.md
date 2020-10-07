@@ -2,7 +2,6 @@
 ![](https://raw.githubusercontent.com/BenjaminGonzalez5/Verifequations/main/Charte_Graphique/assets/logo.png =250x)
 
 ## Description du projet
----
 
 Ce projet consiste en une aide/soutient scolaire pour les élèves en difficulté avec les mathématiques. Il sera composé de 3 parties :
 - Un espace "**Test ton travail**" : où l'utilisateur pourra *proposer une équation* et *tenter de la résoudre lui-même* ligne par ligne. Le programme devra détecter ses erreurs soit à chaque ligne écrite soit à la fin du travail de l'élève. Ainsi il pourra mieux comprendre ses erreurs lorsqu'il développe et résout ses équations. En cas de soucis ou d'incompréhension de l'apprenant, il aura accès à la seconde partie.
@@ -13,7 +12,6 @@ Ce projet consiste en une aide/soutient scolaire pour les élèves en difficult�
 
 ---
 ## Guide de démarrage
----
 
 Ce projet est destiné principalement à des jeunes (collège, lycée, études supérieures...) qui ont des devoirs ou des recherches personnelles à faire en maths. En plus de leurs cours classiques, ils peuvent avoir des outils et un support pour les aider.
 
@@ -23,7 +21,6 @@ L’application ne comporte pas une architecture complexe pour ne pas noyer les 
 
 ---
 ## Configuration
----
 
 Pour cloner le projet :
 
@@ -34,6 +31,5 @@ Puis ouvrez *Verifequations/Charte_Graphique/index.html* pour accéder à la cha
 
 ---
 ## Crédits
----
 
 Projet Scolaire réalisé en 4ème année de l'[EPSI Bordeaux](http://www.epsi.fr) par [Benjamin GONZALEZ](https://github.com/BenjaminGonzalez5) et [Matthieu RODRIGUES](https://github.com/Matthieu-Rodrigues)
