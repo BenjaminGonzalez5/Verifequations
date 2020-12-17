@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Vérif'équations</title>
   <meta charset="utf-8">
@@ -11,100 +12,103 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body style="height:1500px">
 
-<div id="banniere">
-  <img id="logo_banniere" src="assets/logo.png">
-</div>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-  <a class="navbar-brand" href="#"><img id="logo" src="assets/logo.png"></a>
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Espace cours</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Tester son équation</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Espace grand frère</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Profil</a>
-    </li>
-  </ul>
-</nav>
-
-<div class="container-fluid row"><br>
-  <div class="col-sm-1"></div>
-  <div id="contenu" class="col-sm-10 p-5">
-    <div class="card-deck p-3">
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/cours.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Espace Cours</h5>
-          <p class="card-text">Accéder à des cours afin de toujours se perfectionner</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/tester.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Tester son équation</h5>
-          <p class="card-text">Tenter de résoudre sa propre équation ligne par ligne pour apprendre par l'erreur</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/grandfrere.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Espace grand frêre</h5>
-          <p class="card-text">Mise en relation avec un utilisateur experimenté pour comprendre ses erreurs</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/profil.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Profil</h5>
-          <p class="card-text">Consulter et mettre à jour ses informations personnelles</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="card-deck p-3">
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/recent.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Cours à la une :</h5>
-          <p class="card-text"><L></L>es fonctions affines</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/best.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Espace Cours</h5>
-          <p class="card-text">Accéder à des cours afin de toujours se perfectionner</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-      <div class="card bg-secondary" style="width: 15rem;">
-        <img src="assets/recent.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Espace Cours</h5>
-          <p class="card-text">Accéder à des cours afin de toujours se perfectionner</p>
-          <a href="#" class="btn">Je découvre</a>
-        </div>
-      </div>
-    </div>
-
+  <div id="banniere">
+    <img id="logo_banniere" src="assets/logo.png">
   </div>
-  <div class="col-sm-1"></div>
-</div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#"><img id="logo" src="assets/logo.png"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="pages/cours.html">Espace cours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/tester.html">Tester son équation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/frere.html">Espace grand frère</a>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="pages/profil.html">Mon profil</a></li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid row"><br>
+    <div class="col-sm-1"></div>
+    <div id="contenu" class="col-sm-10 p-5">
+      <div class="card-deck p-3">
+        <div class="card bg-secondary" style="width: 15rem;">
+          <img src="assets/cours.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Espace Cours</h5>
+            <p class="card-text">Accéder à des cours afin de toujours se perfectionner</p>
+            <a href="pages/cours.html" class="btn">Je découvre</a>
+          </div>
+        </div>
+        <div class="card bg-secondary" style="width: 15rem;">
+          <img src="assets/tester.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Tester son équation</h5>
+            <p class="card-text">Tenter de résoudre sa propre équation ligne par ligne pour apprendre par l'erreur</p>
+            <a href="pages/tester.html" class="btn">Je découvre</a>
+          </div>
+        </div>
+        <div class="card bg-secondary" style="width: 15rem;">
+          <img src="assets/grandfrere.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Espace grand frêre</h5>
+            <p class="card-text">Mise en relation avec un utilisateur experimenté pour comprendre ses erreurs</p>
+            <a href="pages/frere.html" class="btn">Je découvre</a>
+          </div>
+        </div>
+        <div class="card bg-secondary" style="width: 15rem;">
+          <img src="assets/profil.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Profil</h5>
+            <p class="card-text">Consulter et mettre à jour ses informations personnelles</p>
+            <a href="pages/profil.html" class="btn">Je découvre</a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="card-deck p-3">
+        <div class="card bg-secondary" style="width: 15rem;">
+          <img src="assets/recent.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Cours à la une :</h5>
+            <p class="card-text">Les fonctions affines</p>
+            <a href="#" class="btn">Je découvre</a>
+          </div>
+        </div>
+        <div class="card bg-secondary" style="width: 15rem;">
+          <img src="assets/best.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Meilleur grand frêre :</h5>
+            <p class="card-text">JeanMichelDu38 avec 312 votes</p>
+            <a href="#" class="btn">Voir son profil</a>
+          </div>
+        </div>
+        <div class="card bg-secondary" style="width: 15rem;">
+          <!-- <img src="assets/.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">[Insérer un titre]</h5>
+          <p class="card-text">[Insérer un sous-titre]</p>
+          <a href="#" class="btn">Je découvre</a>
+        </div> -->
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
 
 </body>
+
 </html>
