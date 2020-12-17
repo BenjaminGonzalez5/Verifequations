@@ -15,7 +15,6 @@ body {
   height: 200px;
   margin-top: 0;
   padding: 0px;
-  filter: blur(2px);
   text-align: center;
 }
 
@@ -29,7 +28,7 @@ body {
 
 #contenu {
   background-color: #343a40 !important;
-  /*height: 1200px;*/
+  text-align: center;
   margin-top: 1em;
   color: white;
 }
@@ -44,9 +43,8 @@ body {
 }
 
 .btn {
-  background-color: #ed7d31 !important;
-  color: #343a40 !important;
-  border-color: #343a40 !important;
+  background-color: #80a863 !important;
+  color: white !important;
 }
 
 hr {

@@ -24,55 +24,32 @@
             <a class="nav-link" href="../pages/cours.html">Espace cours</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Tester son équation</a>
+            <a class="nav-link" href="../pages/tester.html">Tester son équation</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Espace grand frère</a>
+            <a class="nav-link" href="../pages/frere.html">Espace grand frère</a>
         </li>
     </ul>
 
     <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Mon profil</a></li>
+        <li class="nav-item"><a class="nav-link" href="../pages/profil.html">Mon profil</a></li>
     </ul>
 </nav>
 
 <div class="container-fluid row"><br>
     <div class="col-sm-1"></div>
     <div id="contenu" class="col-sm-10 p-5">
-        <div class="card-deck p-3">
-            <div class="card bg-secondary" style="width: 15rem;">
-                <img src="../assets/cours.png" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">Les fonctions</h5>
-                    <p class="card-text">Niveau 2nde</p>
-                    <a href="../pages/cours.html" class="btn">Je découvre</a>
-                </div>
-            </div>
-            <div class="card bg-secondary" style="width: 15rem;">
-                <img src="../assets/cours.png" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">Les intégrales</h5>
-                    <p class="card-text">Niveau Terminal</p>
-                    <a href="#" class="btn">Je découvre</a>
-                </div>
-            </div>
-            <div class="card bg-secondary" style="width: 15rem;">
-                <img src="../assets/cours.png" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">Les formes géométriques</h5>
-                    <p class="card-text">Niveau CP</p>
-                    <a href="#" class="btn">Je découvre</a>
-                </div>
-            </div>
-            <div class="card bg-secondary" style="width: 15rem;">
-                <img src="../assets/cours.png" class="card-img-top">
-                <div class="card-body">
-                    <h5 class="card-title">Les nombres négatifs</h5>
-                    <p class="card-text">Niveau 5ème</p>
-                    <a href="#" class="btn">Je découvre</a>
-                </div>
-            </div>
-        </div>
+        <form>
+            <input class="form-control-sm w-25" type="text">
+            <select class="custom-select-sm ml-2 mr-2" name="operateur">
+                <option value="equal">=</option>
+                <option value="superieur">&rsaquo;</option>
+                <option value="inferieur">&lsaquo;</option>
+            </select>
+            <input class="form-control-sm w-25" type="text">
+
+            <button type="button" class="btn ml-3">Valider</button>
+        </form>
     </div>
     <div class="col-sm-1"></div>
 </div>
