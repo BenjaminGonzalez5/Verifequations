@@ -1,9 +1,12 @@
+CREATE DATABASE verifequations;
+USE verifequations;
+
 CREATE TABLE `utilisateur` (
   `id` int PRIMARY KEY AUTO_INCREMENT,
   `pseudo` varchar(255),
   `nom` varchar(255),
   `age` int,
-  `email` email,
+  `email` varchar(255),
   `predilection` varchar(255),
   `created_at` timestamp,
   `avatar` int,

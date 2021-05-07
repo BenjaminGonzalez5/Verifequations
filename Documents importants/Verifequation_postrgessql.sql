@@ -3,7 +3,7 @@ CREATE TABLE "utilisateur" (
   "pseudo" varchar,
   "nom" varchar,
   "age" int,
-  "email" email,
+  "email" varchar,
   "predilection" varchar,
   "created_at" timestamp,
   "avatar" int,
